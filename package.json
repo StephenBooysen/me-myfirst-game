@@ -1,0 +1,26 @@
+{
+  "name": "me-myfirst-game",
+  "version": "1.0.0",
+  "description": "First Person Shooter Game",
+  "homepage": "https://github.com/StephenBooysen/me-myfirst-game#readme",
+  "bugs": {
+    "url": "https://github.com/StephenBooysen/me-myfirst-game/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenBooysen/me-myfirst-game.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "kill": "kill -9 $(lsof -t -i:3000)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
